@@ -12,7 +12,7 @@ jobs:
         os: [ubuntu-latest, macos-latest]
         typesense-version: [0.22.0, 0.23.1]
 
-    runs-on: 
+    runs-on: ubuntu-latest
     steps:
       - name: Start Typesense
         uses: jirevwe/typesense-github-action@v1.0.1
